@@ -1,0 +1,5 @@
+rootProject.name = 'Interview'
+include ':react-native-toast'
+project(':react-native-toast').projectDir = new File(rootProject.projectDir, '../react-native-toast/android')
+
+include ':app'
